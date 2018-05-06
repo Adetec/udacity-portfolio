@@ -1,0 +1,112 @@
+/* TODO: Set media query to max width 450px (NEXUS5) */
+@media screen and (max-width: 450px) {
+    .container {
+        width: 100%;
+    }
+    
+    .flexible {
+        flex-direction: column;
+    }
+
+    .feature {
+        width: 100%;
+    }
+    #banner div {
+        width: 100%;
+    }
+   
+    #logo {
+        width: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    
+}
+/* TODO: Set media query between min width 451px and max width 768px (IPAD) */
+@media screen and (min-width: 451px) and (max-width:768px){
+    
+    #banner div:last-child {
+        margin-left: 20%;
+
+    }
+}
+
+/* TODO: Set media query between min width 769px (Desktop) */
+@media screen and (min-width: 769px){
+    .container {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    .feature {
+        width: 33.3%;
+    }
+
+    #banner div {
+        width: 50%;
+    }
+
+    .feature:nth-child(1) {
+        padding-left: 0;
+    }
+
+    .feature:nth-child(3) {
+        padding-right: 0;
+    }
+    
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Assistant', sans-serif;
+}
+
+h1{
+    font-size: 3em;
+}
+
+
+.flexible {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#banner {
+    border-bottom: 5px solid #9b5127;
+    margin-bottom: 14px;
+}
+
+
+.center {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#logo{
+    width: auto;
+}
+
+.feature {
+    padding: 5px;
+}
+
+
+
+
+
+
+
