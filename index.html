@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adel's portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
+    <!-- Load Exo font from google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    <!-- load CSS file -->
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <!-- start header -->
     <header id="banner" class="container flexible">
+
         <div>
             <img id="logo" src="images/logo.png" alt="logo">
         </div>
@@ -18,35 +22,73 @@
             <h1>Adel's portfolio</h1>
             <h2>Front-End Web Student</h2>
         </div>
-    </header>
 
+    </header>
+    <!-- end header -->
+
+    <!-- start main-->
     <main class="container">
+
+        <!-- start first section -->
         <section>
-            <img src="images/me.jpg" alt="Adel Lassag">
-            <header>
-                <h2>Featured Work</h2>
-            </header>
-            <div id="featured-work" class="flexible">
-                <div class="feature">
-                    <img src="images/mac-udacity.jpg" alt="link one">
-                    <h2 class="center">test</h2>
-                </div>
-                <div class="feature">
-                    <img src="images/mac-udacity.jpg" alt="link two">
-                    <h2 class="center">test</h2>
-                </div>
-                <div class="feature">
-                    <img src="images/mac-udacity.jpg" alt="link three">
-                    <h2 class="center">test</h2>
-                </div>
-            </div>
-            
+            <img class="hovered rounded" src="images/guitar.jpg" alt="Adel Lassag">
+            <h2 class="center">Guitar online courses Project</h2>
+            <p id="description">This is just portfolio project that I built only with HTML and CSS. In the future, there will be real work with JavaScript including lot of frameworks</p>
         </section>
+        <!-- end first section -->
+
+        <!-- start second section -->
+        <section>
+            <header>
+                    <h2 id="featured-title">Featured Work</h2>
+            </header>
+            <div class="flexible">
+
+                <div class="feature">
+                    <article class="hovered">
+                    <img src="images/mac-udacity.jpg" alt="link one">
+                    <h2 class="center">test 1</h2>
+                    <a class="center block" href="https://github.com">link 1</a>
+                    </article>
+                </div>
+
+                <div class="feature">
+                    <article class="hovered">
+                    <img src="images/mac-udacity.jpg" alt="link two">
+                    <h2 class="center">test 2</h2>
+                    <a class="center block" href="https://github.com">link 2</a>
+                    </article>
+                </div>
+
+                <div class="feature">
+                    <article class="hovered">
+                    <img src="images/mac-udacity.jpg" alt="link three">
+                    <h2 class="center">test 3</h2>
+                    <a class="center block" href="https://github.com">link 3</a>
+                    </article>                    
+                </div>
+
+            </div>
+
+        </section>
+        <!-- end second section -->
 
     </main>
+    <!-- end main -->
 
-    <footer>
+    <!-- start footer -->
+    <footer class="container">
         
+        <p class="center">Big thanks to <a href="https://ae.udacity.com/one-million-arab-coders"> One million Arab coders team</a> and <a href="https://udacity.com">UDACITY</a>.</p>
+
+        <ul class="flexible">
+            <li>made with <span>&hearts;</span> by: <a href="https://facebook.com">Adel Lassag</a></li>
+            <li>Email me <a href="mailto:adetech.aadl@gmail.com">here</a></li>
+            <li><time datetime="2018-05-07T22:00">Monday May 7, 2018</time></li>
+        </ul>
+
     </footer>
+    <!-- end footer -->
+
 </body>
 </html>

@@ -17,17 +17,23 @@
    
     #logo {
         width: auto;
-        margin: 0 auto;
+        margin: auto;
         display: block;
     }
-    
+    ul {
+        text-align: center;
+    }    
 }
+
 /* TODO: Set media query between min width 451px and max width 768px (IPAD) */
 @media screen and (min-width: 451px) and (max-width:768px){
     
     #banner div:last-child {
         margin-left: 20%;
 
+    }
+    #logo {
+        margin: 30% auto !important;
     }
 }
 
@@ -55,6 +61,7 @@
     
 }
 
+/* Set border-box to all elements */
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -62,51 +69,96 @@
     box-sizing: border-box;
 }
 
+/* Set background color and font family */
 body {
-    background-color: #fff;
-    font-family: 'Assistant', sans-serif;
+    background-color: #f1eee5;
+    font-family: 'Exo', sans-serif;
 }
 
 h1{
     font-size: 3em;
 }
 
+h2 {
+    font-size: 1.5;
+}
 
+/* TODO: Style flexible class to set flex-box display  */
 .flexible {
     display: flex;
     flex-wrap: wrap;
 }
 
+/* Set border bottom and margin bottom to the page header */
 #banner {
-    border-bottom: 5px solid #9b5127;
+    border-bottom: 5px solid #545d4c;
     margin-bottom: 14px;
 }
 
-
+/* Set Center class To align text to center  */
 .center {
     text-align: center;
 }
 
-ul {
-    list-style: none;
-}
-
+/* set image width to fit to the main container */
 img {
     width: 100%;
     height: auto;
 }
 
+.rounded {
+    border-radius: 10px;
+}
+
 #logo{
     width: auto;
+    margin: 4% auto;
 }
 
+/*TODO: Set featured work section */
 .feature {
-    padding: 5px;
+    padding:5px;
 }
 
+h2 {
+    margin: 0;
+}
 
+#description {
+    font-size: 1.5em;
+    margin: auto;
+}
 
+#featured-title {
+    margin: 10px;
+}
 
+.block {
+    display: block;
+}
 
+a {
+    text-decoration: none;
+    color: #545d4c;
+    padding: 1.5em;
+}
 
+a:hover {
+    color: #3d4932;
+    font-weight: bold;
+}
 
+.hovered:hover {
+    box-shadow: 1px 1px 10px #333;
+}
+
+/* TODO Set Footer syle */
+footer a {
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+}
