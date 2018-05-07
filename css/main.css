@@ -79,8 +79,12 @@ h1{
     font-size: 3em;
 }
 
+#portfolio-title::first-letter {
+    color: #456b60;
+}
+
 h2 {
-    font-size: 1.5;
+    font-size: 1.5em;
 }
 
 /* TODO: Style flexible class to set flex-box display  */
@@ -91,7 +95,7 @@ h2 {
 
 /* Set border bottom and margin bottom to the page header */
 #banner {
-    border-bottom: 5px solid #545d4c;
+    border-bottom: 5px solid #456b60;
     margin-bottom: 14px;
 }
 
@@ -129,9 +133,13 @@ p {
     font-size: 1.5em;
 }
 
+#project-title {
+    margin: 10px auto;
+}
+
 #description {
     
-    margin: 10px 20px;
+    margin: 10px;
 }
 
 #featured-title {
@@ -144,7 +152,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #545d4c;
+    color: #456b60;
     padding: 1.5em;
 }
 
