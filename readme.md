@@ -9,7 +9,7 @@ This is just portfolio project that I built only with `HTML` and `CSS`. In the f
 - Jazz/Blues course [Project Repository](https://github.com/Adetec/jazz-guitar-course)
 
 
-#####credit images:
+##### credit images:
 1- [logo: ](https://www.shareicon.net/download/2016/01/24/708382_people_512x512.png)
 2- [Guitar: ](https://w-dog.net/wallpaper/close-up-musical-instruments-guitars-string-blur-background-wallpaper-widescreen-full-screen-hd-wallpapers/id/321509/)
 3- [classical guitar: ](https://www.cmuse.org/what-is-a-classical-guitar/)
