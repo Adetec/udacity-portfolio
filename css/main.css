@@ -22,6 +22,10 @@
         display: block;
     }
 
+    #first-sect, #second-sect {
+        margin-top: 20px !important;
+    }
+
     ul {
         text-align: center;
     }
