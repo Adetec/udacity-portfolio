@@ -3,7 +3,7 @@
     .container {
         width: 100%;
     }
-    
+
     .flexible {
         flex-direction: column;
     }
@@ -11,27 +11,29 @@
     .feature {
         width: 100%;
     }
+
     #banner div {
         width: 100%;
     }
-   
+
     #logo {
         width: auto;
         margin: auto;
         display: block;
     }
+
     ul {
         text-align: center;
-    }    
+    }
 }
 
 /* TODO: Set media query between min width 451px and max width 768px (IPAD) */
 @media screen and (min-width: 451px) and (max-width:768px){
-    
+
     #banner div:last-child {
         margin-left: 20%;
-
     }
+
     #logo {
         margin: 30% auto !important;
     }
@@ -43,6 +45,11 @@
         max-width: 1300px;
         margin: 0 auto;
     }
+
+    #portfolio-title, #sub-title {
+        text-align: right;
+    }
+
     .feature {
         width: 33.3%;
     }
@@ -58,7 +65,6 @@
     .feature:nth-child(3) {
         padding-right: 0;
     }
-    
 }
 
 /* Set border-box to all elements */
@@ -73,10 +79,16 @@
 body {
     background-color: #f1eee5;
     font-family: 'Exo', sans-serif;
+    color: #525050;
 }
 
-h1{
+h1 {
     font-size: 3em;
+    margin-bottom: 0;
+}
+
+#title-div {
+    text-transform: uppercase;
 }
 
 #portfolio-title::first-letter {
@@ -85,6 +97,15 @@ h1{
 
 h2 {
     font-size: 1.5em;
+}
+
+#sub-title {
+    font-size: 22px;
+}
+
+/* let some space between sections */
+#first-sect, #second-sect {
+    margin-top: 35px;
 }
 
 /* TODO: Style flexible class to set flex-box display  */
@@ -114,7 +135,7 @@ img {
     border-radius: 10px;
 }
 
-#logo{
+#logo {
     width: auto;
     margin: 4% auto;
 }
@@ -138,7 +159,6 @@ p {
 }
 
 #description {
-    
     margin: 10px;
 }
 
@@ -174,4 +194,8 @@ ul {
     list-style: none;
     padding: 0;
     justify-content: space-between;
+}
+
+#love {
+    color: rgb(193, 4, 4);
 }
